@@ -1,0 +1,368 @@
+body{
+background-image: url(../resources/BG.png);
+margin: 0;
+//font-family: "Consolas";
+font-family: Raleway, sans-serif;
+color: gray;
+} 
+
+#background1{
+height: 500px;
+background-color: white;
+background-image: url(../resources/white-BG6.png);
+margin-top: 500px;
+position: absolute;
+width: 100%;
+z-index:-1;
+}
+
+#background2{
+height: 1260px;
+background-color: white;
+background-image: url(../resources/white-BG6.png);
+margin-top: 2020px;
+position: absolute;
+width: 100%;
+z-index: -1;
+}
+
+#background3{
+height: 110px;
+background-color: #1A1A1A;
+background-image: url(../resources/Footer_BG.png);
+margin-top: 4000px;
+position: absolute;
+width: 100%;
+z-index:-1;
+}
+
+#content{
+width: 1000px;
+margin: auto;
+}
+
+#nav{
+text-align:center;
+height: 500px;
+margin-top: 40px;
+}
+
+#nav img{
+width: 700px;
+}
+
+#navbuttons{
+width: 640px;
+margin: auto;
+}
+
+#navbuttons a{
+color: #018fde;
+text-decoration: none;
+font-family: "Lucida Console";
+width: 100px;
+padding: 16px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#navbuttons a:hover{
+border-bottom: solid 2px #808080;
+}
+
+#home{
+border-bottom: solid 2px #808080;
+}
+
+#stats{
+height: 500px;
+text-align: center;
+}
+
+#stats h1{
+	width: 1000px;
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #2E8AE6;
+	border-bottom: solid 4px gray;
+}
+
+.stat{
+	height: 360px;
+	display: inline-table;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+.icon{
+	width: 180px;
+	height: 180px;
+	border: solid 2px gray;
+	border-radius: 90px;
+	margin: auto;
+	-webkit-transition: background-color  0.4s ease-out;
+	-moz-transition: background-color  0.4s ease-out;
+	-o-transition: background-color  0.4s ease-out;
+	-ms-transition: background-color  0.4s ease-out;
+	transition: background-color  0.4s ease-out;
+}
+
+.icon:hover{
+	background-color: #D5D5D5;
+	-webkit-transition: background-color  0.4s ease-out;
+	-moz-transition: background-color  0.4s ease-out;
+	-o-transition: background-color  0.4s ease-out;
+	-ms-transition: background-color  0.4s ease-out;
+	transition: background-color  0.4s ease-out;
+}
+
+.stat img{
+	width: 140px;
+	margin-top: 10px;
+}
+
+.statstext{
+    color: gray;
+}
+
+.stat h2{
+	color: #2E8AE6;
+	font-size: 20px;
+}
+
+#News{
+	height: 1000px;
+}
+
+#News a{
+color: #3375D6;
+font-weight: 700;
+text-decoration: none;
+}
+
+#News h1{
+	width: 1000px;
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	//color: #2E8AE6;
+    color: #3375D6;
+	border-bottom: solid 4px gray;
+}
+
+#headline{
+	//background-color: white;
+	height: 540px;
+	padding-top: 20px;
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#headline p{
+margin-left: 40px;
+margin-right: 40px;
+text-align: center;
+margin-top: 40px;
+color: #Bebebe;
+font-size: 18px;
+}
+
+#newsheader{
+font-size: 24px;
+font-weight: 700;
+color: #3375D6;
+text-align: center;
+margin-bottom: 20px;
+}
+
+#newsimage{
+    width: 640px;
+    height: 360px;
+    background: black;
+    margin: auto;
+}
+
+#newsstories{
+text-align: center;
+margin-top: 80px;
+}
+
+.story{
+border: none;
+width: 300px;
+height: 280px;
+display: inline-table;
+margin-right: 14px;
+margin-left: 14px;
+color: #Bebebe;
+}
+
+.story h3{
+	border-bottom: solid 2px gray;
+	padding-bottom: 16px;
+	color: #2E8AE6;
+}
+
+#About{
+	height: 1260px;
+}
+
+#About h1{
+	width: 1000px;
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #2E8AE6;
+	border-bottom: solid 4px gray;
+}
+
+#About h2{
+	margin-top: 80px;
+	color: #2E8AE6;	
+}
+
+#About p{
+	margin-top: 30px;
+	color: gray;
+}
+
+#Team{
+	text-align:center;
+    height: 660px;
+}
+
+#TeamTitle{
+	width: 1000px;
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #2E8AE6;
+	border-bottom: solid 4px gray;
+}
+
+.teamcolumn{
+    display: inline-table;
+}
+
+.button{
+    background: #1A1A1A;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 24px;
+}
+
+.employee{
+	width: 260px;
+	height: 480px;
+	background: white;
+	display: inline-table;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.employee img{
+	width: 280px;
+	height: 280px;
+}
+
+.employee h1{ 
+	text-align: center;
+	font-size: 20px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	color: #2E8AE6;
+}
+
+.employee h2{ 
+	text-align: center;
+	font-size: 16px;
+	margin-top: 4px;
+	margin-bottom: 6px;
+}
+
+.eText{
+	width: 250px;
+	height: 80px;
+	margin: auto;
+	text-align: center;
+}
+
+.social {
+	display: inline-table;
+	vertical-align: middle;
+	background: #CFCFCF;
+	width: 40px;
+	height: 40px;
+	border-radius:30px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 0px;
+	opacity: .6;
+	-webkit-transition: opacity  0.4s ease-out;
+	-moz-transition: opacity  0.4s ease-out;
+	-o-transition: opacity  0.4s ease-out;
+	-ms-transition: opacity  0.4s ease-out;
+	transition: opacity  0.4s ease-out;
+}
+
+.social img{
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.social:hover{
+	opacity: 1;
+	-webkit-transition: opacity  0.4s ease-out;
+	-moz-transition: opacity  0.4s ease-out;
+	-o-transition: opacity  0.4s ease-out;
+	-ms-transition: opacity  0.4s ease-out;
+	transition: opacity  0.4s ease-out;
+}
+
+#footer{
+height: 100px;
+margin-top: 40px;
+}
+
+#footer h5{
+text-align: center;
+color: gray;
+padding-top: 46px;
+font-weight: 100;
+}
+
+#footer img{
+width: 100px;
+margin-top:-10px;
+position: absolute;
+}
+
+#id2{
+    display: none;
+}
+
+#id3{
+    display: none;
+}
