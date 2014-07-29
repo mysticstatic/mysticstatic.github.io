@@ -9,8 +9,12 @@
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="scripts/twitter.js"></script> 
+	<script src="scripts/twitter.js"></script>
+	<!--<script src="scripts/facebook.js"></script> -->
+	<!--<script src="scripts/blog.js"></script> -->
+	<script src="scripts/scroll.js"></script>
     <!--<script src="scripts/team.js"></script> -->
+	<!--<script src="scripts/contact.js"></script> -->
 
     <!-- Stylesheets-->
     <link rel="Stylesheet" type="text/css" href="css/main.css" />
@@ -32,10 +36,10 @@
 	<div id="nav">
 		<img src="resources/mainlogo.png"/>
 		<div id="navbuttons">
-			<a href="#nav" id="home">HOME</a>
-			<a href="#News">NEWS</a>
-			<a href="#About">ABOUT</a>
-			<a href="#Team">TEAM</a>
+			<a href="#" onclick="slide1()" id="home">HOME</a>
+			<a href="#" onclick="slide2()">NEWS</a>
+			<a href="#" onclick="slide3()">ABOUT</a>
+			<a href="#" onclick="slide4()">TEAM</a>
 			<a href="#">BLOG</a>
 			<a href="#">CONTACT</a>
 		</div>
@@ -45,31 +49,31 @@
 		<h1> What We Do </h1>
 			<div class="stat">
 				<div class="icon">	
-					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
+					<img src="resources/pilot_icon.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
 					<h2>Create Characters </h2>
-					This is filler text as the current descriptions are still being writen.
+					We write their story, give them a personality and try to make them as real as possible.
 				</div>
 			</div>
 			
 			<div class="stat">
 				<div class="icon">	
-					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
+					<img src="resources/characters.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
 					<h2> Design Worlds </h2>
-					This is filler text as the current descriptions are still being writen.
+					From pen and paper to 3d design we try to make a unique and truly interactive world.
 				</div>
 			</div>
 			
 			<div class="stat">
 				<div class="icon">	
-					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
+					<img src="resources/book.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
 					<h2> Tell Stories </h2>
-					This is filler text as the current descriptions are still being writen.
+					It is essential to have a story that the player can follow and enjoys following as they play the game.
 				</div>
 			</div>
 			
@@ -78,8 +82,8 @@
 					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
-					<h2> Advance Gameplay </h2>
-					This is filler text as the current descriptions are still being writen.
+					<h2> Advance Gameplay </h2>				
+					In essence it is how a player plays the game. We try to make gameplay enjoyable and unforgettable. 
 				</div>
 			</div>
 			
@@ -101,23 +105,25 @@
 			<div class="story">
 				<h3>Blog News</h3>
 				<p> 
-				The live update features are currently not working. As of this moment the site is currently static, no plugins or scripts are active. We are working to change this. 
+				Well this is a bit awkward… It appears that the team of programmers at Mystic Static seem to have broken something. Not to worry, the issue will be resolved soon. 
 				</p>
-				<a href="#"> Read More</a>
+				<a href="ERROR.htm"> Read More</a>
 			</div>
 			
 			<div class="story">
 				<h3>Twitter News</h3> 
-				<p id="tweet"></p>
-				<a href="#"> Read More</a>
+				<p>
+				Well this is a bit awkward… It appears that the team of programmers at Mystic Static seem to have broken something. Not to worry, the issue will be resolved soon. 
+				</p>
+				<a href="ERROR.htm"> Read More</a>
 			</div>
 			
 			<div class="story">
 				<h3>Facebook News</h3>
 				<p> 
-				The live update features are currently not working. As of this moment the site is currently static, no plugins or scripts are active. We are working to change this. 
+				Well this is a bit awkward… It appears that the team of programmers at Mystic Static seem to have broken something. Not to worry, the issue will be resolved soon. 
 				</p>
-				<a href="#"> Read More</a>
+				<a href="ERROR.htm"> Read More</a>
 			</div>
 		</div>
 	</div>
@@ -132,7 +138,7 @@
           height="300"
           frameborder="0" style="border:0"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBrrWIxj7BjU_7HMu76Lki-G1oRpXnxCY0
-            &q=Space+Needle,Seattle+WA">
+            &q=Charlotte+NC">
         </iframe>
 
 		<h2>Our Story</h2>
