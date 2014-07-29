@@ -9,8 +9,12 @@
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="scripts/twitter.js"></script> 
+	<script src="scripts/twitter.js"></script>
+	<!--<script src="scripts/facebook.js"></script> -->
+	<!--<script src="scripts/blog.js"></script> -->
+	<script src="scripts/scroll.js"></script>
     <!--<script src="scripts/team.js"></script> -->
+	<!--<script src="scripts/contact.js"></script> -->
 
     <!-- Stylesheets-->
     <link rel="Stylesheet" type="text/css" href="css/main.css" />
@@ -32,10 +36,10 @@
 	<div id="nav">
 		<img src="resources/mainlogo.png"/>
 		<div id="navbuttons">
-			<a href="#nav" id="home">HOME</a>
-			<a href="#News">NEWS</a>
-			<a href="#About">ABOUT</a>
-			<a href="#Team">TEAM</a>
+			<a href="#" onclick="slide1()" id="home">HOME</a>
+			<a href="#" onclick="slide2()">NEWS</a>
+			<a href="#" onclick="slide3()">ABOUT</a>
+			<a href="#"Team">TEAM</a>
 			<a href="#">BLOG</a>
 			<a href="#">CONTACT</a>
 		</div>
@@ -45,7 +49,7 @@
 		<h1> What We Do </h1>
 			<div class="stat">
 				<div class="icon">	
-					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
+					<img src="resources/pilot_icon.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
 					<h2>Create Characters </h2>
@@ -55,7 +59,7 @@
 			
 			<div class="stat">
 				<div class="icon">	
-					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
+					<img src="resources/characters.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
 					<h2> Design Worlds </h2>
@@ -65,7 +69,7 @@
 			
 			<div class="stat">
 				<div class="icon">	
-					<img src="resources/ship_icon.png" alt="Kelley Artwork"/> <br/> 
+					<img src="resources/book.png" alt="Kelley Artwork"/> <br/> 
 				</div>
 				<div class="statstext">
 					<h2> Tell Stories </h2>
@@ -108,7 +112,27 @@
 			
 			<div class="story">
 				<h3>Twitter News</h3> 
-				<p id="tweet"></p>
+				<p>
+				<div>
+					<?php
+
+					function getTwitterStatus($userid){
+					$url = "https://api.twitter.com/1/statuses/user_timeline/$userid.xml?count=1&include_rts=1callback=?";
+
+					$xml = simplexml_load_file($url) or die("could not connect");
+
+						   foreach($xml->status as $status){
+						   $text = $status->text;
+						   }
+						   echo $text;
+					 }
+
+					// USAGE
+					getTwitterStatus("dmitryp222");
+
+					?>
+				</div>
+				</p>
 				<a href="#"> Read More</a>
 			</div>
 			
