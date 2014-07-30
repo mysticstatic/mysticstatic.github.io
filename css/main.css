@@ -41,7 +41,7 @@ z-index: -1;
 }
 
 #background4{
-height: 420px;
+height: 260px;
 background-color: #1A1A1A;
 background-image: url(../resources/Footer_BG.png);
 margin-top: 3960px;
@@ -244,7 +244,7 @@ color: #Bebebe;
 }
 
 #About h2{
-	margin-top: 80px;
+	margin-top: 40px;
 	color: #2E8AE6;	
 }
 
@@ -363,7 +363,7 @@ color: #Bebebe;
 #id3{
     display: none;
 }
-
+/*
 #devnotes{
     height: 400px;
 }
@@ -401,7 +401,7 @@ color: #Bebebe;
 #notes p{
     margin-left: 40px;
 }
-
+    */
 #footer{
 height: 240px;
 margin-top: 40px;

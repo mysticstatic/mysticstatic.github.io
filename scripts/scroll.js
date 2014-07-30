@@ -24,19 +24,19 @@ function slide2()
 {
 	slide();
 
-	$('#News').scrollTo(500);
+	$('#News').scrollTo(600);
 }
 
 function slide3()
 {
 	slide();
 
-	$('#About').scrollTo(500);
+	$('#About').scrollTo(800);
 }
 
 function slide4()
 {
 	slide();
 
-	$('#Team').scrollTo(500);
+	$('#Team').scrollTo(1000);
 }
