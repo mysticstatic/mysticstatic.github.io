@@ -53,7 +53,7 @@ text-align:center;
 
 #social a{
 text-decoration: none;
-opacity: .6;
+opacity: .8;
 -webkit-transition: opacity  0.4s ease-out;
 -moz-transition: opacity  0.4s ease-out;
 -o-transition: opacity  0.4s ease-out;
