@@ -22,22 +22,27 @@ width: 600px;
 text-align: center;
 }
 
-#happyprogrammer{
-width: 500px;
-margin:auto;
+#programmer{
+width: 800px;
+margin-left: 100px;
 }
 
-#happyprogrammer img{
+.happyprogrammer{
+width: 300px;
+display: inline-table;
+text-align:center;
+}
+
+.happyprogrammer img{
 width: 200px;
 }
 
-#happyprogrammertext{
-position: absolute;
-left: 940px;
-top: 600px;
+#ID1{
+position:absolute;
+margin-top: 150px;
 }
 
 #footer{
 text-align: center;
-margin-top: 20px;
+margin-top: 40px;
 }
