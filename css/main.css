@@ -46,3 +46,32 @@ margin-top: 150px;
 text-align: center;
 margin-top: 40px;
 }
+
+#social{
+text-align:center;
+}
+
+#social a{
+text-decoration: none;
+opacity: .6;
+-webkit-transition: opacity  0.4s ease-out;
+-moz-transition: opacity  0.4s ease-out;
+-o-transition: opacity  0.4s ease-out;
+-ms-transition: opacity  0.4s ease-out;
+transition: opacity  0.4s ease-out;
+}
+
+#social a:hover{
+opacity: 1.0;
+-webkit-transition: opacity  0.4s ease-out;
+-moz-transition: opacity  0.4s ease-out;
+-o-transition: opacity  0.4s ease-out;
+-ms-transition: opacity  0.4s ease-out;
+transition: opacity  0.4s ease-out;
+}
+
+#social img{
+width: 40px;
+margin-right: 20px;
+margin-left: 20px;
+}
