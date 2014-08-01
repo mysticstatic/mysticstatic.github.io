@@ -28,13 +28,9 @@ margin-left: 100px;
 }
 
 .happyprogrammer{
-width: 300px;
-display: inline-table;
+width: 400px;
 text-align:center;
-}
-
-.happyprogrammer img{
-width: 200px;
+margin-left: 20px;
 }
 
 #ID1{
@@ -44,7 +40,7 @@ margin-top: 150px;
 
 #footer{
 text-align: center;
-margin-top: 20px;
+margin-top: 10px;
 }
 
 #social{
